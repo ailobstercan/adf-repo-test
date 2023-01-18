@@ -1,0 +1,9 @@
+{
+	"name": "test-for-repo-dev",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "2e9baeb1-f824-4005-b654-386871bbf984",
+		"tenantId": "744f2c7c-4916-4b08-96db-0c54eaa08fb8"
+	}
+}
