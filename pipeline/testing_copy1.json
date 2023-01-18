@@ -1,0 +1,33 @@
+{
+	"name": "testing_copy1",
+	"properties": {
+		"activities": [
+			{
+				"name": "Set variable1",
+				"type": "SetVariable",
+				"dependsOn": [],
+				"userProperties": [],
+				"typeProperties": {
+					"variableName": "counter",
+					"value": {
+						"value": "@add(int(variables('counter_aid')),1)",
+						"type": "Expression"
+					}
+				}
+			}
+		],
+		"variables": {
+			"counter": {
+				"type": "String",
+				"defaultValue": "0"
+			},
+			"counter_aid": {
+				"type": "String",
+				"defaultValue": "0"
+			}
+		},
+		"annotations": [],
+		"lastPublishTime": "2023-01-17T20:02:36Z"
+	},
+	"type": "Microsoft.DataFactory/factories/pipelines"
+}
